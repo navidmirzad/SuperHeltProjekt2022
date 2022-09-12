@@ -1,6 +1,6 @@
 public class Superhero {
 
-    private Superhero[] superheroes;
+    public Superhero[] superheroes;
 
     private String superheltnavn;
     private String rigtigenavn;
@@ -15,19 +15,6 @@ public class Superhero {
         this.superkræft = superkræft;
         this.powerlevel = powerlevel;
         this.opdagelsesår = opdagelsesår;
-
-    }
-
-    public Superhero() {
-
-    // vores objekter, som er superhelte
-    Superhero superhelt1 = new Superhero("Spiderman", "Peter Parker", "spider abilities", "stærk", 2000);
-    Superhero superhelt2 = new Superhero("Dr. Strange", "Stephen Strange", "magi", "meget stærk", 1980);
-    Superhero superhelt3 = new Superhero("Captain America", "Steve Rogers", "superhuman", "meget stærk", 1945);
-    Superhero superhelt4 = new Superhero("Batman", "Bruce Wayne", "flagermusmand", "stærk", 1990);
-    Superhero superhelt5 = new Superhero("Deadpool", "Wade Wilson", "immortal", "meget stærk", 1999);
-
-    superheroes = new Superhero[]{superhelt1, superhelt2, superhelt3, superhelt4, superhelt5};
 
     }
 
