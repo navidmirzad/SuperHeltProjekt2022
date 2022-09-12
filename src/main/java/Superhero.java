@@ -31,6 +31,25 @@ public class Superhero {
 
     }
 
+    public String getSuperheltnavn() {
+        return  superheltnavn;
+    }
+
+    public String getRigtigenavn() {
+        return rigtigenavn;
+    }
+
+    public String getSuperkræft() {
+        return superkræft;
+    }
+
+    public String getPowerlevel() {
+        return powerlevel;
+    }
+
+    public double getOpdagelsesår() {
+        return opdagelsesår;
+    }
 
 }
 
