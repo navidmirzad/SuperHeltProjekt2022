@@ -5,10 +5,10 @@ public class Superhero {
     private String superheltnavn;
     private String rigtigenavn;
     private String superkræft;
-    private String powerlevel;
-    private double opdagelsesår;
+    private double powerlevel;
+    private int opdagelsesår;
 
-    public Superhero(String superheltnavn, String rigtigenavn, String superkræft, String powerlevel, double opdagelsesår) {
+    public Superhero(String superheltnavn, String rigtigenavn, String superkræft, double powerlevel, int opdagelsesår) {
 
         this.superheltnavn = superheltnavn;
         this.rigtigenavn = rigtigenavn;
@@ -30,11 +30,11 @@ public class Superhero {
         return superkræft;
     }
 
-    public String getPowerlevel() {
+    public double getPowerlevel() {
         return powerlevel;
     }
 
-    public double getOpdagelsesår() {
+    public int getOpdagelsesår() {
         return opdagelsesår;
     }
 
