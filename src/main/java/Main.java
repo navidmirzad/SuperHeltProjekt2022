@@ -7,10 +7,7 @@ public class Main {
         Database database = new Database();
 
         System.out.println("Velkommen til SuperHelt Databasen 2022!");
-
         Scanner scanner = new Scanner(System.in);
-
-        while (true) {
 
             System.out.println("Indtast nye superhelts navn: ");
             String navn = scanner.next();
@@ -22,14 +19,14 @@ public class Main {
             String Superkræft = scanner.next();
 
             System.out.println("Indtast Superheltens powerlevel: ");
-            String powerlevel = scanner.next();
+            double powerlevel = scanner.nextDouble();
 
             System.out.println("Indtast Superheltens opdagelses år: ");
             int opdagelsesÅr = scanner.nextInt();
 
             System.out.println("Din superhelt er nu oprettet, prøv igen: ");
-        }
 
+            database.createSuperhero(navn, rigtigNavn, Superkræft, powerlevel, opdagelsesÅr);
 
         /*Superhero superhelt1 = new Superhero("Spiderman", "Peter Parker", "spider abilities", "stærk", 2000);
         Superhero superhelt2 = new Superhero("Dr. Strange", "Stephen Strange", "magi", "meget stærk", 1980);
