@@ -19,7 +19,7 @@ public class Superhero {
     }
 
     public String getSuperheltnavn() {
-        return  superheltnavn;
+        return superheltnavn;
     }
 
     public String getRigtigenavn() {
